@@ -1,0 +1,26 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Analysis outputs (contain sample identifiers and sample-level values)
+Results_directory/
+nested_cv_output/
+results*/
+
+# Data files — never commit participant data
+*.idat
+*.IDAT
+*.rds
+*.RDS
+*.RData
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.xls
+*.gmt
+*.zip
+*.tiff
+*.png
+*.pdf
