@@ -1,6 +1,6 @@
 # DNA methylation and the frailty index (FI): preprocessing, EWAS and downstream analyses
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24238651.svg)](https://doi.org/10.5281/zenodo.24238651)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24238778.svg)](https://doi.org/10.5281/zenodo.24238778)
 
 R code for the analyses of blood DNA methylation (Illumina Infinium MethylationEPIC v1) and the
 frailty index (FI) described in the accompanying manuscript.
@@ -187,5 +187,5 @@ Copyright (c) 2026 BIOJHK, except `nested_cv/` (see [Third-party code](#third-pa
 If you use this code, please cite the accompanying manuscript (citation to be added) and this
 code release:
 
-- Code (v1.0.0): Zenodo, [doi:10.5281/zenodo.24238651](https://doi.org/10.5281/zenodo.24238651)
+- Code (v1.0.1): Zenodo, [doi:10.5281/zenodo.24238778](https://doi.org/10.5281/zenodo.24238778)
 - Nested cross-validation: the Zenodo record listed under [Third-party code](#third-party-code)
