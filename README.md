@@ -1,5 +1,7 @@
 # DNA methylation and the frailty index (FI): preprocessing, EWAS and downstream analyses
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24238651.svg)](https://doi.org/10.5281/zenodo.24238651)
+
 R code for the analyses of blood DNA methylation (Illumina Infinium MethylationEPIC v1) and the
 frailty index (FI) described in the accompanying manuscript.
 
@@ -28,6 +30,7 @@ Scripts are numbered in the order of the sections of the manuscript's Methods.
 │   ├── README.md
 │   └── VALIDATION.md
 ├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
@@ -175,10 +178,13 @@ run `Rscript nested_cv/tests/test_synthetic.R` for the synthetic self-test.
 
 ## License
 
-<!-- Choose a license for the code in R/ (e.g. MIT) and add a LICENSE file before publishing. -->
-`nested_cv/` is distributed under CC BY 4.0. A license for the remaining code has not yet been chosen.
+Code in this repository is released under the [MIT License](LICENSE), except `nested_cv/`, which is
+third-party code distributed under CC BY 4.0 (see [Third-party code](#third-party-code)).
 
 ## Citation
 
-If you use this code, please cite the accompanying manuscript (citation to be added) and, for the
-nested cross-validation, the Zenodo record above.
+If you use this code, please cite the accompanying manuscript (citation to be added) and this
+code release:
+
+- Code (v1.0.0): Zenodo, [doi:10.5281/zenodo.24238651](https://doi.org/10.5281/zenodo.24238651)
+- Nested cross-validation: the Zenodo record listed under [Third-party code](#third-party-code)
