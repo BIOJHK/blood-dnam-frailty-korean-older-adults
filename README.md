@@ -178,8 +178,9 @@ run `Rscript nested_cv/tests/test_synthetic.R` for the synthetic self-test.
 
 ## License
 
-Code in this repository is released under the [MIT License](LICENSE), except `nested_cv/`, which is
-third-party code distributed under CC BY 4.0 (see [Third-party code](#third-party-code)).
+All code in this repository, including `nested_cv/`, is released under the
+[Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE).
+Copyright (c) 2026 BIOJHK, except `nested_cv/` (see [Third-party code](#third-party-code)).
 
 ## Citation
 
